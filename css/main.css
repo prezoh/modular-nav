@@ -28,28 +28,34 @@ body {
   width: 100%;
 }
 
+.h1 {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
 li {
   display: inline-block;
+  text-align: left;
 }
 
 .grid {
-   background-color: #e2e2e2;
+  background-color: #e2e2e2;
 }
 
 .nav a {
+  text-decoration: none;
   list-style-type: square;
   display: inline-block;
   color: #0074d9;
   padding: .3em;
   margin: 0;
-  border: 3px;
 }
 
 .nav a:hover {
   background-color: #0074d9;
-  color: white;
+  color: #fff;
   display: inline-block;
-}
-
-h1 {
 }
