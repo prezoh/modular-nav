@@ -31,9 +31,10 @@ body {
 li {
   display: inline-block;
 }
- .grid {
+
+.grid {
    background-color: #e2e2e2;
- }
+}
 
 .nav a {
   list-style-type: square;
@@ -48,4 +49,7 @@ li {
   background-color: #0074d9;
   color: white;
   display: inline-block;
+}
+
+h1 {
 }
